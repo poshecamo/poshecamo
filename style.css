@@ -1,0 +1,130 @@
+ * {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+ }
+ nav {
+    background-color: rgb(68, 159, 128);
+    color:antiquewhite;
+    display: inline;
+    
+        margin-left: 20px;
+        padding-left: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+header {
+    background-color: rgb(68, 159, 128);
+    color:wheat;
+    padding-top: 50px;
+    
+   
+    
+}
+.title, .title2 {
+    padding-left: 40px;
+    padding-bottom: 30px ;
+
+}
+
+
+header nav {
+    background-color: white;
+    color: orange;
+}
+
+header nav ul {
+    list-style: none;
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin: 20px;
+
+}
+
+header nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+   
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    
+}
+footer {
+    background-color: rgb(198, 140, 189);
+    color:beige;
+    text-align: center;
+    
+}
+.styleul {
+    background-color: orange;
+    color: antiquewhite;
+    display: inline;
+    display: flex;
+    
+}
+
+div {
+    display: block;
+}
+
+.border {
+    display: flex;
+    border-style: solid;
+    background-color: aqua;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+.inn-border {
+    width: 80%;
+}
+.border ul {
+display: inline-block;
+border-style: dotted;
+background-color: blanchedalmond;
+
+
+}
+.inn-border2 {
+    width: 80%;
+}
+
+.border2 {
+    display: flex;
+    border-style: solid;
+    background-color: aqua;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+img {
+    display: inline-block;
+    border-style: groove;
+}
+
